@@ -3,7 +3,7 @@ open class Base(val name: String) {
         println("Инициализация класса Base")
     }
     open val size: Int =
-        name.length.also { println("Инициализация свойства size в класса Base: $it") }
+        name.length.also { println("Инициализация свойства size в класса Base: $it.") }
 }
 class Derived(
     name: String,
